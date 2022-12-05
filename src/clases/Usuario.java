@@ -1,4 +1,4 @@
-package oop.gestorusuarios;
+package clases;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -176,7 +176,7 @@ public class Usuario {
 
 	@Override
 	public String toString() {
-		return "Usuario [id=" + id + ", nombre=" + nombre + ", apellido=" + apellido + ", nombreUsuario="
-				+ nombreUsuario + ", contrasenia=" + "*********" + ", activo=" + activo + "]";
+		return "Usuario [id= " + id + ", nombre= " + nombre + ", apellido= " + apellido + ", nombreUsuario= "
+				+ nombreUsuario + ", contrasenia= " + "*********" + ", activo= " + activo + "]";
 	}
 }
